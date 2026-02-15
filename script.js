@@ -50,7 +50,7 @@ function createCard(product) {
   buy.href = product.buy_url || "#";
   buy.target = "_blank";
   buy.rel = "noopener";
-  buy.textContent = "Comprar";
+  buy.textContent = "Visite a melhor oferta aqui";
   actions.appendChild(buy);
   body.append(title, meta, actions);
   card.append(img, body);
